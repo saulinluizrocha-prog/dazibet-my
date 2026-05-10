@@ -165,7 +165,7 @@ class CApiConnector
         $curl_errno = curl_errno($ch);
         $http_code  = curl_getinfo($ch, CURLINFO_HTTP_CODE);
 
-        curl_close ($ch);
+        // curl_close ($ch); // Deprecated since PHP 8.0
 
         $response = array(
             'error'      => $curl_error,
