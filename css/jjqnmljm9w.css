@@ -1,0 +1,34 @@
+body {
+    direction: ltr
+}
+
+@media (min-width:768px) {
+    .ladi-section .ladi-container {
+        width: 1200px
+    }
+}
+
+@media (max-width:767px) {
+    .ladi-section .ladi-container {
+        width: 420px
+    }
+}
+
+@font-face {
+    font-family: TWVycmlZWFaGVyLUJsYWNrLnRZg;
+    src: url("../fonts/merriweather-black-20201007045253.eot");
+    src: url("../fonts/merriweather-black-20201007045253.eot?#iefix") format("embedded-opentype"), url("../fonts/merriweather-black-20201007045253.woff2") format('woff2'), url("../fonts/merriweather-black-20201007045253.woff") format('woff'), url("../fonts/merriweather-black-20201007045253.svg#MerriweatherBlack") format('svg')
+}
+
+@font-face {
+    font-family: UmibRvLUJsYWNrLnRZg;
+    src: url("../fonts/roboto-black-20200721090708.eot");
+    src: url("../fonts/roboto-black-20200721090708.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-black-20200721090708.woff2") format('woff2'), url("../fonts/roboto-black-20200721090708.woff") format('woff'), url("../fonts/roboto-black-20200721090708.svg#RobotoBlack") format('svg')
+}
+
+body {
+    font-family: "Open Sans", sans-serif
+}
+button {
+background:none;
+}
